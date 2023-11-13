@@ -1,29 +1,15 @@
-# template-vite-vue-tailwind-v3
-
-- **template of:** vite + vue
-- **tailwindcss:** v3.x
 
 ## Started
 ```bash
-yarn
-# or `npm install`
+npm install
 ```
 
 ---
-## Develop
+## Reproduce bug
 ```bash
-yarn dev
-# or `npm run dev`
+npm run test:run:e2e:components
+# test should be green
 ```
 
----
-## Build
-```bash
-yarn build
-# or `npm run build`
-```
 
----
-<p align="center">
-<img src="./powered-by-vitawind-bright.png">
-</p>
+
