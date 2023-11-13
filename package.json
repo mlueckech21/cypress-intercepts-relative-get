@@ -1,0 +1,29 @@
+{
+  "name": "template-vite-vue-tailwind-v3",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --host --port 8080",
+    "build": "vite build",
+    "build-deploy": "NODE_ENV=deploy vite build --mode=deploy",
+    "preview": "vite preview",
+    "test:e2e": "cypress run",
+    "test:e2e:dev": "cypress open --component",
+    "test:e2e:components": "cypress open --component",
+    "test:run:e2e:components": "cypress run --component"
+  },
+  "dependencies": {
+    "@heroicons/vue": "^2.0.18",
+    "@tailwindcss/forms": "^0.5.4",
+    "axios": "^1.4.0",
+    "cypress": "^13.4.0",
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@cypress/vue": "^6.0.0",
+    "@vitejs/plugin-vue": "^2.0.0",
+    "prettier": "^2.5.1",
+    "prettier-plugin-tailwindcss": "^0.1.5",
+    "vitawind": "^2.2.4",
+    "vite": "^2.7.2"
+  }
+}
